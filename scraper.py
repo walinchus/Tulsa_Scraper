@@ -15,15 +15,15 @@ import sys
 sys.setrecursionlimit(10000)
 
 #counties = ['adair','alfalfa','atoka','beaver','beckham','blaine','bryan','caddo','canadian','carter','cherokee','choctaw','cimarron','cleveland','coal','comanche','cotton','craig','creek','bristow','drumright','custer','delaware','dewey','ellis','garfield','garvin','grady','grant','greer','harmon','harper','haskell','hughes','jackson','jefferson','johnston','kay','poncacity','kingfisher','kiowa','latimer','leflore','lincoln','logan','love','major','marshall','mayes','mcclain','mccurtain','mcintosh','murray','muskogee','noble','nowata','okfuskee','oklahoma','okmulgee','henryetta','osage','ottawa','payne','pawnee','pittsburg','pontotoc','pottawatomie','pushmataha','rogermills','rogers','seminole','sequoyah','stephens','texas','tillman','tulsa','wagoner','washington','washita','woods','woodward']
-counties = ['tulsa','payne','garfield','canadian','cleveland','comanche','rogers']
-#counties = ['oklahoma']
+#counties = ['tulsa','payne','garfield','canadian','cleveland','comanche','rogers']
+counties = ['cleveland']
 #next_link = 0
 #years = ['2011','2012','2013','2014','2015','2016','2017']
 years = ['2016','2017']
 CrimeSeverity = ['CF']
 
 def CaseEndingNumbers():
-    for x in range(6663, 10044):
+    for x in range(1, 10044):
         yield '%d' % x
         
 
